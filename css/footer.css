@@ -1,0 +1,179 @@
+/* About US ----------------------------*/
+#about{
+	
+	
+	 margin-top: 0px;
+    position: inherit;
+    background: whitesmoke;
+    width: 100%;
+    font-family: calibri;
+    text-align:center;
+
+	  
+}
+.about-content{
+    text-align:center;
+    width: 60%;
+    margin-top: 50px;
+    
+}
+
+.about-content h1{
+    font-size: 40px;
+    color: #4e4e50;
+}
+.about-content h2{
+    
+	text-align:center;   
+}
+.about1 a{
+	margin-top:100px 100px;
+}
+
+#organisation{
+	
+	 margin-top: 0px;
+    position: inherit;
+    background: white;
+    width: 100%;
+    font-family: calibri;
+	text-align:center;
+	padding:10px
+	
+   
+}
+.census-organisation{
+    text-align: center;
+    width: 60%;
+    margin-top: 50px;
+}
+.census-organisation h1{
+    font-size: 40px;
+    color: #4e4e50;
+}
+
+.census-organisation p{
+	text-align:center;
+    font-size: 25px;
+    color: #4e4e50;
+}
+
+
+@media screen and ( max-width: 500px ){
+    .census-organisation{
+        width: 80%;
+    }
+
+    .census-organisation h1{
+        font-size: 30px;
+    }
+
+    .census-organisation p{
+        font-size: 20px;
+    }
+}
+
+/*  Act & Rules -------------------------*/
+
+#act{
+	
+	
+	 margin-top: 0px;
+    position: inherit;
+    background: whitesmoke;
+    width: 100%;
+    font-family: calibri;
+    text-align:center;
+	  
+}
+
+.act-content{
+    text-align:center;
+    width: 60%;
+    margin-top: 50px;
+    
+}
+
+table {
+  width:50%;
+  margin-left:400px;
+  margin-bottom:100px;
+
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* logo down --------------------------------*/
+
+.logosdown {
+            height: 90px;
+            overflow: hidden;
+            position: relative;
+            background: #fefefe;
+            color: #333;
+            border: 1px solid #4a4a4a;
+			/*display: flex;*/
+			float:center;
+			
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px 80px;
+  cursor:pointer;
+ float:left;
+  
+}
+
+
+#footer{
+    width: 100%;
+    background: #0a0c27;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+#footer-content{
+    display: inline-block;
+}
+
+
+#footer-content a{
+    text-decoration: none;
+    color: rgba(174, 172, 251, 1);
+}
+
+#footer-content p{
+    color: rgba(174, 172, 251, .62);
+    font-size: 18px;
+}
