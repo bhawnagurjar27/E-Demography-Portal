@@ -1,85 +1,59 @@
-
-#bg{
-	
-	border: 5px outset red;
-
-  
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background-color: #D7ECE5;
 }
-.bg1{
-	background-color: lightblue; 
-   
+.nav{
+    margin-top: 0px;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: #72BBA4;
 }
-.left{
-         position: absolute;
-		 margin:150px -50px
-        
-         top:20px;
-         
-         /*background-color:black;  */
-         
-         /*display: inline-block;*/
-         
-         
-
-     }
-.left img{
-         width:140px;
-		 margin-left:100px
-     }
-.header1{
-         display:block;
-         width:50%;
-         margin: 15px auto;
-         border:2px solid gray;
-         background-color: black;
-         border-radius: 40px;
-        
-
-           }
-.right{ 
-           display:inline-block;
-           position:absolute;
-           right:20px;
-           top: 20px;
-           width:20px;
-           
-          
-     }	
-.btn{
-        
-         margin:150px -90px;	 
-         background-color: black;
-         width:80px;
-         padding: 15px 10px;;
-         border:2px solid grey ;
-         border-radius: 40px;
-		 display: block;
-         font-size: 15px;
+ul{
+    list-style: none;
+    float: left;
 }
-     .btn:hover{
-         background-color: grey;
-     }
+ul li{
+    float: left;
+  display: inline-block;
+}
+.head-image{
+    height:80px; 
+    width:80px;
+}
 
-     .navbar{
-         display: inline-block;
-         
-         
+.navbar{
+         display: inline-block;   
+         float: right;
+         margin-top: 50px;
      }
+     
      .navbar li{
          display: inline-block;
          font-size: 20px;
+         float: left;
      }
      .navbar li a{
-         color: rgb(202, 193, 202);
+         color:black;
          text-decoration: none;
          padding: 15px 15px;
 
      }
      .navbar li a:hover,.navbar li a.active{
          text-decoration:underline ;
-         color: gray;
-     }	 
-	 
-	 
-	
-	 
+         color: #D7ECE5;
+         
+     }	  
+     .btn{ 
+         background-color:#72BBA4;
+         width:80px;
+         border:none;
+         display: block;
+         font-size: 20px;
+     }
+     .btn:hover{
+         color: #D7ECE5;
+         text-decoration:underline ;
+     }

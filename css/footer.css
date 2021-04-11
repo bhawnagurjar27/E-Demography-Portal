@@ -1,3 +1,19 @@
+/*marque----*/
+
+.marquee {
+            height: 50px;
+            overflow: hidden;
+            position: relative;
+            background: #fefefe;
+            color: #333;
+            border: 1px solid #4a4a4a;
+        }
+
+
+
+
+
+
 /* About US ----------------------------*/
 #about{
 	
@@ -32,31 +48,47 @@
 
 #organisation{
 	
-	 margin-top: 0px;
+	/* margin-top: 0px;
     position: inherit;
     background: white;
     width: 100%;
     font-family: calibri;
-	text-align:center;
-	padding:10px
+	padding:10px   */
+	margin-top: 0px;
+    position: inherit;
+    background: white;
+    width: 100%;
+    font-family: calibri;
+    text-align: center;
+	padding:10px 
 	
    
 }
+
+.census-organisation h2{
+text-align: center;
+color: #4e4e50;
+width: 60%;
+text-decoration: underline;
+}
 .census-organisation{
+	
     text-align: center;
     width: 60%;
     margin-top: 50px;
 }
 .census-organisation h1{
+	
     font-size: 40px;
     color: #4e4e50;
 }
 
 .census-organisation p{
-	text-align:center;
+	
     font-size: 25px;
     color: #4e4e50;
 }
+
 
 
 @media screen and ( max-width: 500px ){
@@ -153,21 +185,98 @@ th, td {
  float:left;
   
 }
+.thank-content h1{
+	
+	font-size: 40px;
+	font-family: calibri;
+    text-align:center;
+	margin-top: 50px;
+}
 
 
 #footer{
-    width: 100%;
+    width: 100%;  
     background: #0a0c27;
     text-align: center;
     color: whitesmoke;
+	left: 0;
+   bottom: 0;
 }
 
 
 #footer-content{
     display: inline-block;
 }
+span {
+    text-align: center;
+}
+#footer-content
+a {
+    padding-top: 55px;
+    margin-top: 65px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 100px;
+    padding-top: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+#middle {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+a:hover {
+    color: lightcoral;
+}
+/*.icons {
+    size: 20px;
+    
+    display: flex;
+    justify-content: center;
+    /*padding-top: 10px;
+    padding-bottom: 10px;   
+}
 
+.icons a {
+    height: 40px;
+    width: 40px;
+    background-color: #f5f6fa;
+    border-radius: 35px;
+    text-align: center;
+    margin: 10px;
+    line-height: 60px;
+    box-shadow: 1px 4px 2px 2px #c9cddf;
+}
 
+.icons a i {
+    transition: all 0.3s linear;
+}
+
+.icons a:hover i {
+    transform: scale(1.4);
+}*/
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-facebook {
+    color: #0097e6;
+}
+
+.last {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*---
 #footer-content a{
     text-decoration: none;
     color: rgba(174, 172, 251, 1);
@@ -176,4 +285,5 @@ th, td {
 #footer-content p{
     color: rgba(174, 172, 251, .62);
     font-size: 18px;
-}
+}---*/
+
