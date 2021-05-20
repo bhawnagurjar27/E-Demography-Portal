@@ -1,0 +1,236 @@
+<html>
+    <head>
+        <link rel="icon" href="images/CENSUSLOGO.png">
+        <title>courtyard shelter data collection</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo" ><img src="images/LOGO.png" alt="image">CENSUS<span>.</span></a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="https://legislative.gov.in/sites/default/files/A1948-37.pdf" onclick="toggleMenu();">Acts</a></li>
+                <li><a href="https://censusindia.gov.in/vital_statistics/SRS_Report/9Chap%202%20-%202011.pdf" onclick="toggleMenu();">Data</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                <li><a><button id="show-signup" onclick="toggleMenu();">Sign Up</button></a></li>
+            </ul>
+        </header>
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2>OUR CENSUS</h2>
+                <h2>OUR PARTICIPATION</h2>
+                <P>NATIONAL POPULATION CENSUS 2021</P>
+                <input type="checkbox" id="show">
+                <label for="show" class="btn">LOG IN</label>
+                <div class="cont">
+                    <label for="show" class="close-btn fas fa-times" title="close" ></label>
+                    <div class="text">Login Form</div>
+                    <form action="form.html">
+                        <div class="data">
+                            <label>Email or Phone</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="data">
+                            <label>Password</label>
+                            <input type="password" required>
+                        </div>
+                        <div class="forgot-pass">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <div class="btn">
+                            <div class="inner">
+                                <a href="form.html"><button type="submit">login</button></a>
+                            </div>
+                        </div>
+                        <div class="signup-link">Not a member?<a id="show-signup1" >Signup now</a></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="slogan">
+            <marquee scrollamount="15"><h4>**आबादी पर करो नियंत्रण, तरक्की को दो आमंत्रण।**</h4></marquee>
+        </section>
+        <section class="thank">
+            <h4>Thank you for completing the Census! You have helped make a difference in India.</h4>
+        </section>
+        <section class="why">
+            <div class="row">
+                <div class="col50">
+                    <h1>WHAT IS THE <br>CENSUS</h1>
+                </div>
+                <div class="col50">
+                    <p>Every 10 years, people across the country and in India fill out the Census in order to have an accurate count of all people in the Asia.
+                        The Census determines India’s federal funding for important community services that help support our families and fair share of representation in India<br><br>
+                       The 2021 Census is happening now! You have three ways to complete the Census: online, by phone and by mail. 
+                       The Census will secure resources that will benefit our communities for the next ten years.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+                    <h2 class="titleText"><span>A</span>bout Us</h2>
+                    <p>The decennial Census of India has been conducted 15 times, 
+                        as of 2011. While it has been undertaken every 10 years,
+                        beginning in 1872 under British Viceroy Lord Mayo,
+                        the first complete census was taken in 1881. Post 1949,
+                        it has been conducted by the Registrar General and Census Commissioner
+                        of India under the Ministry of Home Affairs, Government of India.
+                        All the censuses since 1951 were conducted under the 1948 Census of India Act.
+                        The last census was held in 2011, whilst the next will be held in 2021.
+                        Historically, there has been a long time between collection of data and dissemination of data.
+                    </p>
+                    <div class="container">
+            <div class="card">
+                <div class="img">
+                    <img src="images/amit.png">
+                </div>
+                <div class="top-text">
+                    <div class="name">Shri Amit Shah</div>
+                    <p>Home Minister</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">Amit Shah was born to Smt. Kusumben and Shri Anilchandra Shah, in an affluent Gujarati family on
+                        22nd October 1964. Amit Shah represents the emerging New India in every sense of the term.
+                        Leading the Party from the front for the last five years.
+                    </div>
+                    <div class="btn">
+                        <a href="https://en.wikipedia.org/wiki/Amit_Shah">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="images/vivek.png">
+                </div>
+                <div class="top-text">
+                    <div class="name">Dr. Vivek Joshi,</div>
+                    <p>Census Commissioner</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">Vivek Joshi IAS appointed Registrar General & Census Commissioner- MHA. Shri Vivek Joshi 
+                        IAS presently in the cadre, has been appointed as Registrar General and Census Commissioner
+                        under Ministry of Home Affairs in the rank and pay of Additional Secretary.
+                    </div>
+                    <div class="btn">
+                        <a href="https://en.wikipedia.org/wiki/Registrar_General_and_Census_Commissioner_of_India">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="images/kishan.png">
+                </div>
+                <div class="top-text">
+                    <div class="name">G.Kishan Reddy</div>
+                    <p>Minister of State(Home)</p>
+                </div>
+                <div class="bottom-text">
+                    <div class="text">G.Kishan Reddy, who people affectionately and reverentially call ‘Kishananna’,is a live example of
+                     what one can achieve through sheer determination and hard work.His calm demeanor betrays his
+                     inner strength.Member of Parliament in 17th Lok Sabha from Secunderabad Constituency,
+                     Telanagana-2019.
+                    </div>
+                    <div class="btn">
+                        <a href="https://en.wikipedia.org/wiki/G._Kishan_Reddy">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2 class="titleText"><span>C</span>ontact Us</h2>
+                <p>For suggestion / problem with the designing / working of this site and further improvement, you may contact</p>
+            </div>
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name"> 
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email"> 
+                </div>
+                <div class="inputBox">
+                    <textarea  placeholder="text"></textarea> 
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send"> 
+                </div>
+            </div>
+        </section> 
+        <footer>
+            <span><a href="#" target="blank"> Disclaimer  </a></span>
+            <span><a href="#" target="blank">Copyright </a></span>
+            <span><a href="#" target="blank">Terms & Conditions </a></span>
+            <span><a href="#" target="blank">Privacy Policy </a></span>
+            <span><a href="#" target="blank">Security </a></span>
+
+            <p id="middle">Connect With Us</p>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/bhawna.gurjar.79" target="blank"><i class="fa fa-2x fa-facebook "></i></a>
+                <a href="https://www.instagram.com/badole_30/" target="blank"><i class="fa fa-2x fa-instagram"></i></a>
+                <a href="https://twitter.com/maravi_namrata?s=08" target="blank"><i class="fa fa-2x fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/harshita-limanpure-ba126918b" target="blank"><i class="fa fa-2x fa-linkedin"></i></a>
+            </div>
+            <p id="last">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> E- Demography of India 2021. All rights reserved </p>
+        </footer>
+        <div class="popup">
+            <div class="close-btn1">&times;</div>
+            <div class="from">
+                <h2>SIGN UP</h2>
+                <form action="form.html">
+                <div class="from-element">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email" required>
+                </div><br/>
+                <div class="from-element">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password" required>
+                </div><br/>
+                <div class="from-element">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="confirm password" required>
+                </div><br/>
+                <div class="from-element">
+                    <a href="form.html"><button>Sign Up</button></a>
+                </div>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                const header = document.querySelector('header');
+                header.classList.toggle("sticky", window.scrollY>0);
+            });
+            function toggleMenu(){
+                const menuToggle = document.querySelector('.menuToggle');
+                const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+        }
+        </script>
+        <script>
+            document.querySelector("#show-signup").addEventListener("click", function(){
+            document.querySelector(".popup").classList.add("active");
+            });
+            document.querySelector(".popup .close-btn1").addEventListener("click", function(){
+            document.querySelector(".popup").classList.remove("active");
+            });
+            document.querySelector("#show-signup1").addEventListener("click", function(){
+            document.querySelector(".popup").classList.add("active");
+            });
+            document.querySelector(".popup .close-btn1").addEventListener("click", function(){
+            document.querySelector(".popup").classList.remove("active");
+            });
+        </script>
+        
+    </body>
+</html>

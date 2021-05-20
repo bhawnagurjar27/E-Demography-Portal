@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 8px;
+}
+
+.contain h2 {
+    text-align: center;
+    margin-top: 9px;
+    padding-top: 9px;
+    padding-bottom: 1px;
+}
+
+.contain {
+    background-color: #BEBEBE;
+    padding-right: 25px;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.contain input[type="radio"] {
+    margin-right: 20%;
+    font-size: 17px;
+    padding: 7px;
+    background-color: whitesmoke;
+}
+
+.contain input[type="text"],
+.contain input[type="number"],
+.contain input[type="email"],
+.contain input[type="date"],
+.contain textarea {
+    width: 100%;
+    padding: 4px;
+}
+
+#hn,
+#pin {
+    width: 38.6%;
+    padding: 4px;
+}
+
+.contain .add {
+    width: 18%;
+    padding: 4px;
+}
+
+.contain select {
+    width: 23%;
+    padding: 4px;
+}
+
+#marry,
+#spouse {
+    width: 39.8%;
+    padding: 4px;
+}
+
+#category,
+#dispr {
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+}
+
+#reset,
+#submit {
+    width: 49.5%;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+#submit {
+    background-color: green;
+    margin-left: 2px;
+}
+
+#reset {
+    background-color: rgba(255, 0, 0, 0.849);
+    margin-right: 2px;
+    border: none;
+}
+@media(max-width: 991px){
+    body{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 30px;
+    }
+}

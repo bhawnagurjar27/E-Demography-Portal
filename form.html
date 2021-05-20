@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/form.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="contain">
+        <form action="">
+            <h2>Persional Details</h2>
+
+            Full Name : <input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+            </p>
+            <p>
+                First Name : <input type="text" name="fname" placeholder="Enter Your First Name" required>
+            </p>
+            <p>
+                Middle Name : <input type="text" name="mname" placeholder="Enter Your Middle Name" r>
+            </p>
+            <p>
+                Last Name : <input type="text" name="lname" placeholder="Enter Your Last Name" required>
+            </p>
+
+            <p>
+                <legend>Gender : </legend>
+                Male <input type="radio" name="gender" id="male" required> Female <input type="radio" name="gender" id="female" required> Other <input type="radio" name="gender" id="other" required>
+
+            </p>
+            <p>
+                Date of Birth : <input type="date" name="dob" id="dob" required>
+            </p>
+            <p>Birth Place : <select name="birth_place" id="" required>
+            <option value=""> Select </option>
+            <option value="india">India</option>
+            <option value="other country">Other Country</option>
+        </select> Nationality : <select name="nation" id="" required>
+            <option value="">select</option>
+            <option value="indian">Indian</option>
+            <option value="other">other</option></select> Religion : <select name="religion" id="" required>
+                <option value="">select</option>
+                <option value="hinduism">Hinduism</option>
+                <option value="buddhism">Buddhism</option>
+                <option value="jainism">Jainism</option>
+                <option value="islam">Islam</option>
+                <option value="sikhism">Sikhism</option>
+                <option value="christianity">Christianity</option>
+                <option value="other">Other</option>
+                       </select>
+
+            </p>
+            <p>Contact Number : <input type="number" name="contact_num" placeholder="Enter Your Contact Number" required></p>
+            <p>Email ID : <input type="email" name="emaileid" id="emailid" placeholder=" Enter Your Email ID" required></p>
+            <p>Qualification : <input type="text" name="qualification" placeholder="Enter Your Qualification" required></p>
+            <p>Occupation : <input type="text" name="occupation" id="occupation" placeholder="Enter Your Occupation" required></p>
+            <p>Maried : <select name="maried" id="marry" required>
+           <option value="">select</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+
+        </select> Spouse Name : <input type=" text" name="spouse_name" id="spouse" placeholder="Enter Your Spouse name"></p>
+            <p>Your Aadhar Card Number <input type="number" name="your_aadhar" placeholder="Enter Your Aadhar Card Number" required> </p>
+            <p>Local Address : <textarea name="localaddress" id="localadd." cols="50" rows="3" placeholder="Enter Your Full Local Address" required></textarea></p>
+            <p>
+                Permanant Address : <textarea name="address " id="address " cols="50 " rows="4" placeholder="Enter Your Permanant Address" required></textarea>
+            </p>
+            <p> House Number : <input type="number" name="housenumber" placeholder="Enter Your House Number" id="hn"> Pincode : <input type="number" name="pincode" placeholder="Enter Your Pincode" required id="pin">
+            </p>
+            <p>City : <select name="cityname" required class="add"> 
+            <option value="">select</option>
+            <option value="Barwaha">Barwaha</option>
+            <option value="Indore">Indore</option>
+            <option value="jabalpur">Jabalpur</option>
+            <option value="mumbai">Mumbai</option>
+               </select> Distruct : <select name="districtname" required class="add"> 
+        <option value="">select</option>
+        <option value="khargone">Khargone</option>
+        <option value="jabalpur">Jabalpur</option>
+        <option value="indore">Indore</option>
+        <option value="sagar">Sagar</option>
+
+    </select> State : <select name="statename" required class="add"> 
+    <option value="">select</option>
+    <option value=" Kerla">Kerla</option>
+    <option value="madhyapradesh">Madhya Pradesh</option>
+    <option value="mharstra">Maharastra</option>
+    <option value="Uttarpradesh">Uttar Pradesh</option>
+           </select> Country : <select name="countryname" id="" required class="add">
+    <option value="">Select</option>
+    <option value="india">India</option>
+</select></p>
+            <h2>Family Details</h2>
+            <p>
+                Father's Full Name : <input type="text" name="fatherfullname" id="fatherfullname" placeholder="Enter Your Father Full Name" required></p>
+            <p> Father's First Name : <input type="text" name="father_fname" id="father_fname" placeholder="Enter Your Father First Name" required> </p>
+            <p> Father's Middle Name : <input type="text" name="fathe_mrname" id="father_mname" placeholder="Enter Your Father Middle Name"> </p>
+            <p>
+                Father's Last Name :<input type="text" name="father_lname" id="father_lname" placeholder="Enter Your Father Last Name" required></p>
+            <p>
+                Father's Date of Birth : <input type="date" name="father_dob" id="father_dob" required>
+            </p>
+            <p> Father's Qualification : <input type="text" name="fatherqualification" placeholder="Enter  Qualification" required></p>
+            <p>Father's Occupation : <input type="text" name="fatheroccupation" id="occupation" placeholder="Enter  Occupation" required></p>
+            <p> Father's Aadhar Card Number : <input type="number" name="fatheraadharnumber" id="aadharnumber" placeholder="Enter  Aadhar card number" required></p>
+            <p>
+                Mother's Full Name : <input type="text" name="motherfullname" id="motherfullname" placeholder="Enter Your Mother Full Name" required></p>
+            <p> Mother's First Name : <input type="text" name="mother_fname" id="mother_fname" placeholder="Enter Your Mother First Name" required> </p>
+            <p> Mother's Middle Name : <input type="text" name="mother_mrname" id="mother_mname" placeholder="Enter Your Mother Middle Name"> </p>
+            <p>
+                Mother's Last Name :<input type="text" name="mother_lname" id="mother_lname" placeholder="Enter Your Mother Last Name" required></p>
+
+
+
+            <p>
+                Mother's Date of Birth : <input type="date" name="mother_dob" id="mother_dob" required>
+            </p>
+            <p> Mother's Qualification : <input type="text" name="motherqualification" placeholder="Enter  Qualification" required></p>
+            <p>Mother's Occupation : <input type="text" name="motheroccupation" id="occupation" placeholder="Enter  Occupation" required></p>
+            <p> Mother's Aadhar Card Number : <input type="number" name="motheraadharnumber" id="aadharnumber" placeholder="Enter  Aadhar card number" required></p>
+            <p>Family Member Number : <input type="number" name="membernumber" placeholder="Enter the Number" required></p>
+            <p>Mother Toungue : <input type="text" name="mother_lang" placeholder="Enter Mother Toungue" required></p>
+            <p>Category : <select name="category" id="category" required>
+            <option value=""> Select </option>
+            <option value="st"> ST </option>
+            <option value="sc"> SC </option>
+            <option value="obc"> OBC </option>
+            <option value="general">GENERAL </option>
+            <option value="other"> OTHER </option>            </select></p>
+
+            <p>Disable Person In family : <select name="disable_person" id="dispr" required>
+                <option value="">select</option>
+            <option value="yes">Yes</option>
+                <option value="no">No</option>
+
+        </select>
+            </p>
+            <p>Aadhar Card : <input type="file" name="Aadhar_card" required></p>
+            <input type="reset" value="Reset" id="reset"> <input type="submit" value="Submit" id="submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
