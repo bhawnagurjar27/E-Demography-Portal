@@ -1,3 +1,3 @@
 # E-Demography Portal
-Simple website with beautiful interface which is based on census organization.
+A simple website with a beautiful interface that is based on census organization.
 
